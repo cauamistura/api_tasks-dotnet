@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\prog\\api_tasks-dotnet\\Tasks\\Tasks\\Tasks.csproj": {}
+    "C:\\prog\\Tasks\\Tasks\\Tasks.csproj": {}
   },
   "projects": {
-    "C:\\prog\\api_tasks-dotnet\\Tasks\\Tasks\\Tasks.csproj": {
+    "C:\\prog\\Tasks\\Tasks\\Tasks.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\prog\\api_tasks-dotnet\\Tasks\\Tasks\\Tasks.csproj",
+        "projectUniqueName": "C:\\prog\\Tasks\\Tasks\\Tasks.csproj",
         "projectName": "Tasks",
-        "projectPath": "C:\\prog\\api_tasks-dotnet\\Tasks\\Tasks\\Tasks.csproj",
-        "packagesPath": "C:\\Users\\cauam\\.nuget\\packages\\",
-        "outputPath": "C:\\prog\\api_tasks-dotnet\\Tasks\\Tasks\\obj\\",
+        "projectPath": "C:\\prog\\Tasks\\Tasks\\Tasks.csproj",
+        "packagesPath": "C:\\Users\\anafl\\.nuget\\packages\\",
+        "outputPath": "C:\\prog\\Tasks\\Tasks\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\cauam\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\anafl\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [

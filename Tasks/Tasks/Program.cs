@@ -1,3 +1,9 @@
+using Microsoft.EntityFrameworkCore;
+using Microsoft.Extensions.Configuration;
+using Tasks.Data;
+using Tasks.Repositories;
+using Tasks.Repositories.Interfaces;
+
 namespace Tasks
 {
     public class Program
@@ -8,6 +14,12 @@ namespace Tasks
 
             // Add services to the container.
             builder.Services.AddRazorPages();
+
+            builder.Services.AddEntityFrameworkSqlServer()
+                .AddDbContext<TasksDBContex>(options => options.UseSqlServer(
+                    builder.Configuration.GetConnectionString("DataBase")));
+
+            builder.Services.AddScoped<IUserRepository, UserRepository>();
 
             var app = builder.Build();
 
