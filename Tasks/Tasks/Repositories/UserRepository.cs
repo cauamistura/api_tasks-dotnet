@@ -37,7 +37,7 @@ namespace Tasks.Repositories
             userModel.Name = user.Name;
             userModel.Email = user.Email;
 
-            _dBContex?.Update(userModel);
+            _dBContex.Users.Update(userModel);
             await _dBContex.SaveChangesAsync();
 
             return userModel;
