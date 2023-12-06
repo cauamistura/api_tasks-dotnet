@@ -1,32 +1,35 @@
+# Ignorar pasta com o nome .vs
+.vs
+
+# Ignorar arquivos temporários
 *.swp
 *.*~
+
+# Ignorar arquivos específicos
 project.lock.json
 .DS_Store
 *.pyc
 nupkg/
 
+# Ignorar configurações de IDEs específicas
 # Visual Studio Code
 .vscode/
-
 # Rider
 .idea/
-
 # Visual Studio
 .vs/
-
 # Fleet
 .fleet/
-
 # Code Rush
 .cr/
 
-# User-specific files
+# Ignorar arquivos gerados pelo usuário
 *.suo
 *.user
 *.userosscache
 *.sln.docstates
 
-# Build results
+# Ignorar resultados de compilação
 [Dd]ebug/
 [Dd]ebugPublic/
 [Rr]elease/
